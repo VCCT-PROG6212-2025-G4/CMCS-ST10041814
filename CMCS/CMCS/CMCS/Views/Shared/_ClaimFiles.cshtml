@@ -1,0 +1,114 @@
+﻿@model CMCS.Models.Claim
+
+@{
+    var role = Context.Session.GetString("Role");
+    var files = ViewBag.Files as IEnumerable<string> ?? Enumerable.Empty<string>();
+
+    var invoice = files.FirstOrDefault(f => f.EndsWith("-Invoice.pdf"));
+
+    bool canUpload = role == "Lecturer" || role == "HR";
+    bool canDeleteFile = role == "Lecturer" || role == "HR";
+    bool canGenerateInvoice = role == "Manager" || role == "HR";
+    bool canDeleteInvoice = role == "Manager" || role == "HR";
+}
+
+<!-- INVOICE -->
+<div class="card p-3 mb-3">
+    <h5>Invoice</h5>
+
+    @if (canGenerateInvoice)
+    {
+        <button class="btn btn-dark mb-2" onclick="generateInvoice()">
+            Generate Invoice
+        </button>
+    }
+
+    @if (invoice != null)
+    {
+        <div class="d-flex justify-content-between border p-2">
+            <span>@invoice</span>
+
+            <div>
+                <a class="btn btn-sm btn-outline-primary"
+                   href="/api/claims/@Model.ClaimID/download/@invoice">
+                    Download
+                </a>
+
+                @if (canDeleteInvoice)
+                {
+                    <button class="btn btn-sm btn-danger"
+                            onclick="deleteFile('@invoice')">
+                        Delete
+                    </button>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+<!-- SUPPORTING FILES -->
+<div class="card p-3">
+    <h5>Supporting Files</h5>
+
+    @if (canUpload)
+    {
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" required />
+            <button class="btn btn-sm btn-primary">Upload</button>
+        </form>
+    }
+
+    <div id="fileList" class="mt-2">
+        @foreach (var f in files.Where(f => !f.EndsWith(".pdf")))
+        {
+            <div class="d-flex justify-content-between border p-2 mb-1">
+                <span>@f</span>
+                <a class="btn btn-sm btn-outline-primary"
+                   href="/api/claims/@Model.ClaimID/download/@f">
+                    Download
+                </a>
+
+                @if (canDeleteFile)
+                {
+                    <button class="btn btn-sm btn-danger"
+                            onclick="deleteFile('@f')">
+                        Delete
+                    </button>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    document.getElementById("uploadForm")?.addEventListener("submit", e => {
+        e.preventDefault();
+        const data = new FormData(e.target);
+
+        fetch(`/api/claims/@Model.ClaimID/upload`, {
+            method: "POST",
+            body: data
+        }).then(r => {
+            if (!r.ok) alert("Upload failed");
+            else location.reload();
+        });
+    });
+
+    function deleteFile(file) {
+        fetch(`/api/claims/@Model.ClaimID/${file}`, {
+            method: "DELETE"
+        }).then(r => {
+            if (!r.ok) alert("Delete failed");
+            else location.reload();
+        });
+    }
+
+    function generateInvoice() {
+        fetch(`/api/claims/@Model.ClaimID/invoice`, {
+            method: "POST"
+        }).then(r => {
+            if (!r.ok) alert("Invoice generation failed");
+            else location.reload();
+        });
+    }
+</script>

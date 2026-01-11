@@ -1,0 +1,52 @@
+﻿@using CMCS.Models
+
+@{
+    var role = Context.Session.GetString("Role");
+}
+
+@if (!string.IsNullOrEmpty(role))
+{
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="/Home/Index">
+                    Home
+                </a>
+
+
+                <a>
+                    @* Lecturer & HR can create claims *@
+                    @if (role == "Lecturer" || role == "HR")
+                    {
+                        <a class="navbar-brand"
+                           href="/Claim/Create">
+                            +Claim
+                        </a>
+                    }
+
+                    @* HR extra menu *@
+                    @if (role == "HR")
+                    {
+                        <a class="navbar-brand"
+                           href="/Claim/Index">
+                            Claim
+                        </a>
+                        <a class="navbar-brand"
+                           href="/Account/Register">
+                            +User
+                        </a>
+                        
+                    }
+                </a>
+            </div>
+            <div class="d-flex gap-2">
+                <a class="btn btn-outline-light btn-sm"
+                   href="/Account/Logout">
+                    Logout
+                </a>
+            </div>
+
+        </div>
+    </nav>
+}

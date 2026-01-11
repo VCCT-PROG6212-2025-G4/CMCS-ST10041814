@@ -1,0 +1,210 @@
+﻿@model CMCS.Models.Claim
+@using CMCS.Models.Enums
+
+@{
+    var role = Context.Session.GetString("Role");
+
+    bool locked = Model.PaymentStatus == ClaimPaymentStatus.Paid;
+
+    bool canEdit = !locked && (role == "Coordinator" || role == "HR");
+    bool canApprove = !locked && (role == "Coordinator" || role == "HR");
+    bool canPost = !locked && (role == "Manager" || role == "HR");
+    bool canPay =
+        !locked &&
+        ((role == "User" && Model.PostStatus == ClaimPostStatus.Posted) || role == "HR");
+}
+
+<div class="card shadow p-4" style="max-width:900px;margin:auto;">
+    <h3 class="mb-3">Claim Details</h3>
+
+    <form id="claimForm" method="post" action="/Claim/Update/@Model.ClaimID">
+        <table class="table table-bordered">
+            <tr><th>Student</th><td>@Model.User?.Username</td></tr>
+            <tr><th>Lecturer</th><td>@Model.Lecturer?.Username</td></tr>
+
+            <tr>
+                <th>Month</th>
+                <td>
+                    @if (canEdit)
+                    {
+                        <input name="Month" value="@Model.Month" class="form-control" />
+                    }
+                    else
+                    {
+
+                        @Model.Month
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Year</th>
+                <td>
+                    @if (canEdit)
+                    {
+                        <input name="Year" type="number" value="@Model.Year" class="form-control" />
+                    }
+                    else
+                    {
+
+                        @Model.Year
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Hours</th>
+                <td>
+                    @if (canEdit)
+                    {
+                        <input name="HoursWorked" type="number" step="0.1"
+                               value="@Model.HoursWorked" class="form-control" />
+                    }
+                    else
+                    {
+
+                        @Model.HoursWorked
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Rate</th>
+                <td>
+                    @if (canEdit)
+                    {
+                        <input name="HourRate" type="number" step="0.01"
+                               value="@Model.HourRate" class="form-control" />
+                    }
+                    else
+                    {
+
+                        @Model.HourRate
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td>
+                    R<span id="totalAmount">
+                        @(Model.HoursWorked* Model.HourRate)
+                    </span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <th>Approval</th>
+                <td class="d-flex align-items-center gap-2">
+                    <span>@Model.ApprovalStatus</span>
+
+                    @if (canApprove)
+                    {
+                        <button type="button" class="btn btn-sm btn-success ms-auto"
+                                onclick="approveWithSave(@Model.ClaimID)">
+                            Approve
+                        </button>
+
+                        <button type="button" class="btn btn-sm btn-danger"
+                                onclick="rejectWithSave(@Model.ClaimID)">
+                            Reject
+                        </button>
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Post</th>
+                <td class="d-flex align-items-center gap-2">
+                    <span>@Model.PostStatus</span>
+
+                    @if (canPost)
+                    {
+                        <button type="button" class="btn btn-sm btn-warning ms-auto"
+                                onclick="postWithSave(@Model.ClaimID)">
+                            Post
+                        </button>
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <th>Payment</th>
+                <td class="d-flex align-items-center gap-2">
+                    <span>@Model.PaymentStatus</span>
+
+                    @if (canPay)
+                    {
+                        <button type="button" class="btn btn-sm btn-primary ms-auto"
+                                onclick="payWithSave(@Model.ClaimID)">
+                            Mark as Paid
+                        </button>
+                    }
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr />
+
+    <!-- FILES + INVOICE -->
+    <partial name="_ClaimFiles" model="Model" />
+</div>
+
+<script>
+    function autoSaveThen(action) {
+        const form = document.getElementById("claimForm");
+        const data = new FormData(form);
+
+        fetch(form.action, {
+            method: "POST",
+            body: data
+        }).then(r => {
+            if (!r.ok) {
+                r.text().then(alert);
+            } else {
+                action();
+            }
+        });
+    }
+
+    function approveWithSave(id) {
+        autoSaveThen(() =>
+            fetch(`/api/claims/${id}/approve`, { method: 'POST' })
+                .then(() => location.reload())
+        );
+    }
+
+    function rejectWithSave(id) {
+        autoSaveThen(() =>
+            fetch(`/api/claims/${id}/reject`, { method: 'POST' })
+                .then(() => location.reload())
+        );
+    }
+
+    function postWithSave(id) {
+        autoSaveThen(() =>
+            fetch(`/api/claims/${id}/post`, { method: 'POST' })
+                .then(r => r.ok ? location.reload() : r.text().then(alert))
+        );
+    }
+
+    function payWithSave(id) {
+        autoSaveThen(() =>
+            fetch(`/api/claims/${id}/pay`, { method: 'POST' })
+                .then(() => location.reload())
+        );
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    function recalcTotal() {
+        const hours = parseFloat($("input[name='HoursWorked']").val()) || 0;
+        const rate = parseFloat($("input[name='HourRate']").val()) || 0;
+        $("#totalAmount").text((hours * rate).toFixed(2));
+    }
+
+    $("input[name='HoursWorked'], input[name='HourRate']").on("input", recalcTotal);
+</script>

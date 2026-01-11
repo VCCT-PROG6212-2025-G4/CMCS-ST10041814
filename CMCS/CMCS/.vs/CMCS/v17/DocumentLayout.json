@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\api\\claimapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\api\\claimapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\viewmodels\\claimsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\viewmodels\\claimsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\services\\claimfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\services\\claimfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\models\\enums\\claimapprovalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\models\\enums\\claimapprovalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\api\\claimfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\api\\claimfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\hr\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\hr\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\migrations\\20251218125507_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\migrations\\20251218125507_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\migrations\\20260107225340_addhruserediting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\migrations\\20260107225340_addhruserediting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\hr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\hr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\viewmodels\\claimdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\viewmodels\\claimdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\services\\interfaces\\iclaimfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\services\\interfaces\\iclaimfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\viewmodels\\claimgroupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\viewmodels\\claimgroupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\shared\\_claimtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\shared\\_claimtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\viewmodels\\createclaimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\viewmodels\\createclaimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|c:\\users\\kuan-chi fang\\source\\repos\\cmcs\\cmcs\\views\\claim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65A0F484-26CA-4177-9752-3DA6CB956B2A}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\claim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Program.cs",
+              "RelativeDocumentMoniker": "CMCS\\Program.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Program.cs",
+              "RelativeToolTip": "CMCS\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T18:50:53.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\ClaimService.cs",
+              "RelativeDocumentMoniker": "CMCS\\Services\\ClaimService.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\ClaimService.cs",
+              "RelativeToolTip": "CMCS\\Services\\ClaimService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:15:28.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "CMCS\\Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "CMCS\\Services\\InvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:30:20.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T23:59:54.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaimApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\API\\ClaimApiController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\API\\ClaimApiController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\API\\ClaimApiController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\API\\ClaimApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T00:58:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimSearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimSearchViewModel.cs",
+              "RelativeDocumentMoniker": "CMCS\\ViewModels\\ClaimSearchViewModel.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimSearchViewModel.cs",
+              "RelativeToolTip": "CMCS\\ViewModels\\ClaimSearchViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:33:08.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T21:37:27.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "CMCS\\Services\\AuthorizationService.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\AuthorizationService.cs",
+              "RelativeToolTip": "CMCS\\Services\\AuthorizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T21:38:51.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClaimFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\ClaimFileService.cs",
+              "RelativeDocumentMoniker": "CMCS\\Services\\ClaimFileService.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\ClaimFileService.cs",
+              "RelativeToolTip": "CMCS\\Services\\ClaimFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:56:21.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:17:07.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HRController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\HRController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\HRController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\HRController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\HRController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:13:08.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CMCS\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CMCS\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:46:38.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClaimApprovalStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\Enums\\ClaimApprovalStatus.cs",
+              "RelativeDocumentMoniker": "CMCS\\Models\\Enums\\ClaimApprovalStatus.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\Enums\\ClaimApprovalStatus.cs",
+              "RelativeToolTip": "CMCS\\Models\\Enums\\ClaimApprovalStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:45:59.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaimFileController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\API\\ClaimFileController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\API\\ClaimFileController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\API\\ClaimFileController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\API\\ClaimFileController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwGUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:14:58.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Repositories\\ClaimRepository.cs",
+              "RelativeDocumentMoniker": "CMCS\\Repositories\\ClaimRepository.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Repositories\\ClaimRepository.cs",
+              "RelativeToolTip": "CMCS\\Repositories\\ClaimRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T00:27:14.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T21:36:51.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CMCS\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\User.cs",
+              "RelativeToolTip": "CMCS\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:16:02.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260107225340_AddHRUserEditing.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\20260107225340_AddHRUserEditing.cs",
+              "RelativeDocumentMoniker": "CMCS\\Migrations\\20260107225340_AddHRUserEditing.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\20260107225340_AddHRUserEditing.cs",
+              "RelativeToolTip": "CMCS\\Migrations\\20260107225340_AddHRUserEditing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:17:37.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T04:18:24.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\HR\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\HR\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\HR\\Edit.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\HR\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T04:20:35.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251218125507_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\20251218125507_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CMCS\\Migrations\\20251218125507_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\20251218125507_InitialCreate.cs",
+              "RelativeToolTip": "CMCS\\Migrations\\20251218125507_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:17:47.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CMCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CMCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:17:50.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\HR\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\HR\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\HR\\Index.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\HR\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T04:14:36.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IClaimFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\Interfaces\\IClaimFileService.cs",
+              "RelativeDocumentMoniker": "CMCS\\Services\\Interfaces\\IClaimFileService.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Services\\Interfaces\\IClaimFileService.cs",
+              "RelativeToolTip": "CMCS\\Services\\Interfaces\\IClaimFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T04:04:31.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "CMCS\\ViewModels\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "CMCS\\ViewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:34:54.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_TopBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Shared\\_TopBar.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Shared\\_TopBar.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Shared\\_TopBar.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Shared\\_TopBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T04:12:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClaimDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "CMCS\\ViewModels\\ClaimDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimDetailsViewModel.cs",
+              "RelativeToolTip": "CMCS\\ViewModels\\ClaimDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:31:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:29:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "CMCS\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Models\\Claim.cs",
+              "RelativeToolTip": "CMCS\\Models\\Claim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T03:23:00.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClaimGroupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimGroupViewModel.cs",
+              "RelativeDocumentMoniker": "CMCS\\ViewModels\\ClaimGroupViewModel.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\ClaimGroupViewModel.cs",
+              "RelativeToolTip": "CMCS\\ViewModels\\ClaimGroupViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:32:22.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ClaimTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Shared\\_ClaimTable.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Shared\\_ClaimTable.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Shared\\_ClaimTable.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Shared\\_ClaimTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T00:39:45.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Claim\\Details.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Claim\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Claim\\Details.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Claim\\Details.cshtml",
+              "ViewState": "AgIAALcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T00:39:53.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateClaimViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\CreateClaimViewModel.cs",
+              "RelativeDocumentMoniker": "CMCS\\ViewModels\\CreateClaimViewModel.cs",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\ViewModels\\CreateClaimViewModel.cs",
+              "RelativeToolTip": "CMCS\\ViewModels\\CreateClaimViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:33:30.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Claim\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Claim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kuan-Chi Fang\\source\\repos\\CMCS\\CMCS\\Views\\Claim\\Index.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Claim\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T00:39:26.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

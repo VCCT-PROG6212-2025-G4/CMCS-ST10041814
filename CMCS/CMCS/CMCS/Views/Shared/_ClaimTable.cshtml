@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CMCS.Models.Claim>
+
+<table class="table table-bordered table-striped mt-2">
+    <thead class="table-light">
+        <tr>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Hours</th>
+            <th>Rate</th>
+            <th>Total</th>
+            <th>Approval</th>
+            <th>Post</th>
+            <th>Payment</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Month</td>
+                <td>@c.Year</td>
+                <td>@c.HoursWorked</td>
+                <td>@c.HourRate</td>
+                <td>@(c.HoursWorked* c.HourRate)</td>
+                <td>@c.ApprovalStatus</td>
+                <td>@c.PostStatus</td>
+                <td>@c.PaymentStatus</td>
+
+                <td>
+                    <a class="btn btn-sm btn-primary"
+                       href="/Claim/Details/@c.ClaimID">
+                        View
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@model CMCS.ViewModels.EditUserViewModel
+
+<h3>Edit User</h3>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-2">
+        <label>User Code</label>
+        <input class="form-control" value="@Model.UserCode" disabled />
+    </div>
+
+    <div class="mb-2">
+        <label>Name</label>
+        <input class="form-control" value="@Model.Username" disabled />
+    </div>
+
+    <div class="mb-2">
+        <label>Role</label>
+        <input class="form-control" value="@Model.Role" disabled />
+    </div>
+
+    <div class="mb-2">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label>Contact Number</label>
+        <input asp-for="ContactNumber" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label>New Password</label>
+        <input asp-for="NewPassword" class="form-control" />
+    </div>
+
+    <button class="btn btn-success">Save</button>
+    <a class="btn btn-secondary" href="/HR">Cancel</a>
+</form>

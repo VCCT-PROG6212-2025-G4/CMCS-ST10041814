@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CMCS.Models.User>
+@{
+    var role = Context.Session.GetString("Role");
+}
+<h3>All Users</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User Code</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.UserCode</td>
+                <td>@u.Username</td>
+                <td>@u.Role</td>
+                <td>
+                    <a class="btn btn-sm btn-primary"
+                       href="/HR/Edit/@u.Id">
+                        Edit
+                    </a>
+
+                    <form method="post"
+                           action="/HR/Delete/@u.Id"
+                           style="display:inline"
+                           onsubmit="return confirm('Delete user and ALL claims?')">
+
+                        @if (u.Role != "HR")
+                        {
+                            <button class="btn btn-sm btn-danger">
+                                Delete
+                            </button>
+                        }
+
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

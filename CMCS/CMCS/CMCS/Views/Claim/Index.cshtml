@@ -1,0 +1,46 @@
+﻿@using CMCS.ViewModels
+@model IEnumerable<ClaimGroupViewModel>
+
+<form method="get" class="card card-body mb-3">
+    <div class="row g-2 align-items-end">
+
+        <div class="col-md-8">
+            <label class="form-label">Search</label>
+            <input name="Keyword"
+                   class="form-control"
+                   placeholder="Search..." />
+        </div>
+
+        <div class="col-md-2">
+            <label class="form-label">Search By</label>
+            <select name="SearchBy" class="form-select">
+                <option value="">-- Auto --</option>
+                <option value="Username">Student Name</option>
+                <option value="Lecturer">Lecturer Name</option>
+                <option value="Month">Month</option>
+                <option value="Year">Year</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <button class="btn btn-primary w-100">
+                Search
+            </button>
+        </div>
+
+    </div>
+</form>
+
+
+@foreach (var group in Model)
+{
+    <a class="btn btn-outline-primary w-100 mb-2"
+       data-bs-toggle="collapse"
+       href="#group-@group.OwnerId">
+        @group.OwnerName - @group.OwnerId
+    </a>
+
+    <div class="collapse" id="group-@group.OwnerId">
+        @Html.Partial("_ClaimTable", group.Claims)
+    </div>
+}
